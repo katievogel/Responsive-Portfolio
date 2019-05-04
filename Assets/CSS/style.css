@@ -1,0 +1,189 @@
+body {
+    margin: 0 auto;
+    overflow: visible;
+    background-image: url("../Images/full-bloom.png");
+}
+
+header {
+    max-width: 960px;
+    position: relative;
+    top: -10px;
+    size: 100%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.header-space {
+    background-color: white;
+    display: block;
+    height: 75px;
+    border-bottom: 2px solid lightgray;
+}
+.header-name {
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 200px;
+    padding: 20px 20px 19px 20px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: inline;
+    position: relative;
+}
+
+.navbar {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+.index, .portfolio {
+    margin: 0 20px;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #cccccc;
+}
+
+.contact {
+    margin-left: 20px;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #cccccc;
+}
+
+.wrapper {
+    width: 960px;
+    height: 430px;
+    background-color: #ffffff; 
+    margin: auto;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    position: relative;
+    top: 40px;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    max-width: 905px;
+    border-top: 2px solid #cccccc;
+}
+
+.section{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+    margin: 15px 0px;
+    color: #777777;
+    line-height: 1.5;
+}
+
+.me {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border-top: 5px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+}
+
+a:hover{
+    color: darkgray;
+}
+a:active{
+    color: black;
+}
+
+.port-wrapper {
+    width: 960px;
+    height: 600px;
+    background-color: #ffffff; 
+    margin: auto;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    position: relative;
+    top: 40px;
+}
+
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: block;
+    color: #777777;
+}
+
+.name, .email, .msg-box {
+    margin: 10px 10px 10px 5px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+textarea {
+    height: 150px;
+}
+.contact-wrapper {
+    width: 960px;
+    height: 500px;
+    background-color: #ffffff; 
+    margin: auto;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    position: relative;
+    top: 40px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    height: 30px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+    position: relative;
+    bottom: -30px;
+    left: -15px;
+}
+
+.img-box1, .img-box2, .img-box3, .img-box4, .img-box5 {
+    Position: relative;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 5px;
+    width: 200px
+}
+
+.img-text {
+    position: relative;
+    top: -53px;
+    background-color: #4aaaa5;
+    padding: 10px 10px;
+    display: block;
+    color: white;
+    text-align: center;
+}
